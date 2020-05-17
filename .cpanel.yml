@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/smklogos/public_html/rezaarowana.id/newbro
+    - /bin/cp * $DEPLOYPATH
